@@ -40,7 +40,7 @@ public class SellerAuthorAspect {
         // 查询cookie
         Cookie cookie = CookieUtil.get(request, CookieConstant.TOKEN);
         if(cookie == null) {
-            log.warn("[登录校验] Cookie中查不到token");
+            log.warn("[登录校验1] Cookie中查不到token");
             throw new SellerAuthorException();
         }
 
