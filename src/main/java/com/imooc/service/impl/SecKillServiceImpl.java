@@ -27,7 +27,7 @@ public class SecKillServiceImpl implements SecKillService {
     static
     {
         /**
-         * 模拟多个表，商品信息表，库存表，秒杀成功订单表
+         * 模拟多个表，商品信息表，库存表，秒杀成功订单表1
          */
         products = new HashMap<>();
         stock = new HashMap<>();
