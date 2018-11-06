@@ -51,7 +51,6 @@ public class SellerExceptionHandler {
     @ExceptionHandler(value = ResponseBankException.class)
     @ResponseStatus(HttpStatus.FORBIDDEN)
     public void handlerResponseException() {
-
     }
 
 }
